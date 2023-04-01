@@ -1,9 +1,10 @@
-const words = [' '];
+const words = [''];
 function add() {
     const theText = document.getElementById('inputWord');
     words.push(theText.value)
     theText.value = ''
 }
+
 function find() {
     const theWord = document.getElementById('inputWordsToFind');
     let flag = words.indexOf(theWord.value)
