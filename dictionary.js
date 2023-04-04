@@ -1,4 +1,5 @@
-const words = [''];
+const words = [];
+
 function add() {
     const theText = document.getElementById('inputWord');
     words.push(theText.value)
